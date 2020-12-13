@@ -4,14 +4,14 @@ firebase : projet "bulle étanche", avec dedans des applis (= site pour un proje
 
 appli (= site) projet vin.fr
 	domaine vin.fr
-		> entête à mettre dans entête namecheap
+		> entête à mettre dans entête ovh
 appli (= site) quizz.vin.fr
 	domaine quizz.vin.fr
-		> entête à mettre dans entête namecheap
+		> entête à mettre dans entête ovh
 
 existe entête DNS pour les mails pour rediriger contact@vin.fr pour rediriger vers a.vergnaud@gmail.com
 
-https://www.namecheap.com/support/knowledgebase/article.aspx/308/2214/how-to-set-up-free-email-forwarding/
+https://docs.ovh.com/fr/emails/guide-des-redirections-emails/
 
 + elasticmail
 pas un client smtp
