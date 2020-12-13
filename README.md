@@ -1,5 +1,7 @@
 # notes
 
+![archi](ce-vin-ci.png?raw=true "Architecture")
+
 firebase : projet "bulle étanche", avec dedans des applis (= site pour un projet web).
 
 appli (= site) projet vin.fr
