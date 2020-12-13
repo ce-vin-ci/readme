@@ -24,7 +24,7 @@ GatsbyJS PWA pour la partie front, blog. workbox cli scanne les static et les aj
 
 ReactJS PWA pour la partie quizz
 
-le blog et le quizz sont dans Contentful
+le blog et le quizz sont dans strapi / cloud.mongodb.com ET cloudinary pour les files upload
 50Mo :
 hébergement d'images ...
 
