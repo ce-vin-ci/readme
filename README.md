@@ -4,7 +4,8 @@
 
 firebase : projet "bulle étanche", avec dedans des applis (= site pour un projet web).
 
-appli (= site) projet vin.fr
+projet vin.fr
+appli (= site) vin.fr
 	domaine vin.fr
 		> entête à mettre dans entête ovh
 appli (= site) quizz.vin.fr
@@ -36,4 +37,11 @@ page facebook !!!
 google analytics
 
 entête OGP <head> HTML ! pour twitter ou facebook qui alimentent des vignettes dans les tweets
+
+# CD contrib
+
+curl -H "Authorization: token <YOUR_GITHUB_TOKEN>" \
+    --request POST \
+    --data '{"event_type": "<YOUR_EVENT_TYPE>"}' \
+    https://api.github.com/repos/<YOUR_GITHUB_USER>/<YOUR_GITHUB_REPO>/dispatches
 
