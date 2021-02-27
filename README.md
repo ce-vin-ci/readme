@@ -111,22 +111,6 @@ curl -H "Authorization: token <YOUR_GITHUB_TOKEN>" \
     https://api.github.com/repos/<YOUR_GITHUB_USER>/<YOUR_GITHUB_REPO>/dispatches
 ```
 
-# TODO utiliser Keycloak comme authentication provider pour Strapi
-
-Pour modifier du contenu, aujourd'hui il faut se connecter à l'admin Strapi.
-
-Projet : Créer un client d'admin qui permettra d'écrire (créer, modifier) du contenu de CMS.
-
-_Ce client devra obtenir un JWT auprès de keycloak au nom de l'utilisateur (Oauth2)_
-
-[user-permissions plugin](https://strapi.io/documentation/developer-docs/latest/plugins/users-permissions.html#concept)
-
-"This plugin provides a way to protect your API with a full authentication process based on JWT. This plugin comes also with an ACL strategy that allows you to manage the permissions between the groups of users."
-
-https://github.com/strapi/strapi/issues/3072
-
-https://strapi.io/documentation/developer-docs/latest/plugins/users-permissions.html#concept
-
 # notes diverses
 
 firebase : projet "bulle étanche", avec dedans des applis (= site pour un projet web).
